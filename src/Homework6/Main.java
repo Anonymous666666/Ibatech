@@ -5,10 +5,10 @@ public class Main {
         String[] habits = {"run", "eat", "sleep"};
         String [][] schedule = {{DayofWeek.Sunday.name(),"Code"},{DayofWeek.Monday.name(),"Code"}};
 
-        Human mother = new Human("Katerina", "Snowden", 1968,100,schedule);
-        Human father = new Human("Edward", "Snowden", 1956,100,schedule);
-        Pet pet = new Pet(Species.Dog,"Alabash",3,100, habits);
-        Human child = new Human("Steve","Snowden",1993,100,schedule);
+        Human mother = new Human("Katy", "William", 1988,100,schedule);
+        Human father = new Human("Billie", "Wattorson", 1979,100,schedule);
+        Pet pet = new Pet(Species.Dog,"Ildirim",3,100, habits);
+        Human child = new Human("Steven","Johnson",1965,100,schedule);
 
         Family family = new Family(mother, father, 1);
         family.addChild(child);
